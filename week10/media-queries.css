@@ -1,0 +1,26 @@
+/* media-queries.css */
+
+body { font-family:Arial, sans-serif; }
+
+img {
+  vertical-align: middle;
+  float: left;
+  margin-bottom:50px;
+  width:12.5%;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 50%;  }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+  img {
+    width: 25%;  }
+}
+
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  img {
+    width: 16.666666666666%;  }
+}
